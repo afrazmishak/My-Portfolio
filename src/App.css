@@ -1,0 +1,18 @@
+.button-counter {
+    width:  200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    background-color:rgb(107, 171, 227) ;
+}
+
+.line-one-arabic {
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.line-one-english {
+    font-size: 12px;
+    font-style: italic;
+}

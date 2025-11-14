@@ -33,11 +33,11 @@ function AboutIslam() {
 
           <div className="RightSideAboutIslamContainer">
             <h1 className="Heading">What Is Islam? </h1>
-            <p>Islam is a way of life that teaches peace, kindness, and purpose.</p>
-            <p>It guides a person to worship only one God, Allah, and to live with honesty, patience, and good manners.</p>
-            <p>Islam is not just a religion you practice in the mosque — it is something you carry in your heart and show through your actions.</p>
-            <p>It teaches us how to speak, how to treat others, how to control our anger, how to stay humble, and how to find peace within ourselves.</p>
-            <p>At its core, Islam means:</p>
+            <p className="Paragraph Paragraph1">Islam is a way of life that teaches peace, kindness, and purpose.</p>
+            <p className="Paragraph Paragraph2">It guides a person to worship only one God, Allah, and to live with honesty, patience, and good manners.</p>
+            <p className="Paragraph Paragraph3">Islam is not just a religion you practice in the mosque. It is something you carry in your heart and show through your actions.</p>
+            <p className="Paragraph Paragraph4">It teaches us how to speak, how to treat others, how to control our anger, how to stay humble, and how to find peace within ourselves.</p>
+            <p className="Paragraph Paragraph5">At its core, Islam means:</p>
             <ul>
               <li>Peace</li>
               <li>Submission to Allah</li>
@@ -70,7 +70,6 @@ function App() {
   return (
     <>
       <WelcomeBanner />
-      <MenuBar />
       <AboutIslam />
     </>
   )

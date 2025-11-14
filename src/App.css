@@ -14,12 +14,11 @@
     align-items: center;
     list-style: none;
     width: 500px;
-    height: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px 10px;
+    height: 55px;
+    margin: 12px auto;
+    padding: 5px 0;
     border: 1px solid #d9d6cf;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: white;
 }
 
@@ -45,14 +44,11 @@
 
 .AboutIslam {
     width: 85%;
-    display: flex;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .AboutIslamContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 20px 0;
     background-color: #E2AB3C;
@@ -61,21 +57,8 @@
 
 .LeftSideAboutIslamContainer {
     flex: 0 0 40%;
-    align-self: start;
-}
-
-.RightSideAboutIslamContainer {
-    flex: 0 0 60%;
-    display: flex;
-    flex-direction: row;
-    align-self: start;
-}
-
-
-.LeftSideAboutIslamContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .AboutIslamContainerImages {
@@ -85,14 +68,20 @@
 }
 
 .RightSideAboutIslamContainer {
+    flex: 0 0 60%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     font-size: 16px;
 }
 
 .Heading {
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+.Paragraph {
+    font-size: 17px;
 }
 
 .button-counter {

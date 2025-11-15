@@ -33,21 +33,27 @@ function AboutIslam() {
 
           <div className="RightSideAboutIslamContainer">
             <h1 className="Heading1">What Is Islam? </h1>
-            <p className="Paragraph Paragraph1">Islam is a complete way of life that guides a person in every moment, from how to speak, how to behave, how to treat others, and how to connect with Allah, the One who created everything.</p>
-            <p className="Paragraph Paragraph2">At its root, the word “Islam” means:</p>
-            <ul>
+            <p className="Paragraph">Islam is a complete way of life that guides a person in every moment, from how to speak, how to behave, how to treat others, and how to connect with Allah, the One who created everything.</p>
+            <p className="Paragraph">At its root, the word “Islam” means:</p>
+            
+            <ul className="Unlisted">
               <li>Peace</li>
-              <li>Submission to Allah</li>
+              <li>Submission to the will of Allah</li>
               <li>Living with purpose</li>
             </ul>
-            <p className="Paragraph Paragraph3">This means true peace comes when a person submits their heart, mind, and life to the One who knows them better than they know themselves.</p>
-            <br />
+
+            <p className="Paragraph">This means true peace comes when a person submits their heart, mind, and life to the One who knows them better than they know themselves.</p>
+
             <h1 className="Heading2">Islam Teaches One Simple Message</h1>
-            <p className="Paragraph Paragraph4">Islam teaches that there is only one God, Allah, who has no partners, no children, no helpers, and no weaknesses.</p>
-            <p className="Paragraph Paragraph5">He is the Creator, the Protector, and the One who gives life and takes life.</p>
-            <p className="Paragraph Paragraph6">And Muhammad ﷺ is His final messenger, sent to teach humanity how to live with purpose, mercy, and justice.</p>
+
+            <p className="Paragraph">Islam teaches that there is only one God, Allah, who has no partners, no children, no helpers, and no weaknesses.</p>
+            <p className="Paragraph">He is the Creator, the Protector, and the One who gives life and takes life.</p>
+            <p className="Paragraph">And Muhammad ﷺ is His final messenger, sent to teach humanity how to live with purpose, mercy, and justice.</p>
+
           </div>
         </div>
+
+        <div className=""></div>
       </section>
     </>
   )

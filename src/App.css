@@ -20,6 +20,7 @@
     border: 1px solid #d9d6cf;
     border-radius: 50px;
     background-color: white;
+    font-weight: 600;
 }
 
 .HomeMenuBarListItems{
@@ -53,7 +54,7 @@
     display: flex;
     align-items: flex-start;
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 0 0;
     height: 550px;
 }
 
@@ -77,8 +78,8 @@
 }
 
 .Heading1 {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
     font-size: 27px;
 }
 
@@ -86,39 +87,11 @@
     margin-top: 0;
     font-size: 18px;
     padding-right: 5%;
-    line-height: 35px;
+    line-height: 36px;
 }
 
 .IsalmContext{
-    padding-left: 79px;
-}
-
-.TopicOneHeadline {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-.TopicOnePoints {
-    display: flex;
-    justify-content: center;
-}
-
-.TopicOneParagraph {
-    text-align: center;
-    line-height: 35px;
-}
-
-.TopicOneItems {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    list-style:none ;
-    line-height: 35px;
-}
-
-.TopicOneBoldItems {
-    font-weight: bold;
+    padding-left: 5%;
 }
 
 .UnderstandingTable {
@@ -128,16 +101,16 @@
 
 .TableHead {
     padding: 8px 0;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .TableTopic {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .TableParagraph {
     padding: 5px 25px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .TableUnListed {

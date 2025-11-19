@@ -203,6 +203,43 @@ function MyTable() {
   );
 }
 
+function ImageGrid() {
+  const images = [
+    "./src/assets/imageset/image1.jpg",
+    "./src/assets/imageset/image2.jpg",
+    "./src/assets/imageset/image3.jpg",
+    "./src/assets/imageset/image4.jpg",
+    "./src/assets/imageset/image5.jpg",
+    "./src/assets/imageset/image1.jpg",
+    "./src/assets/imageset/image2.jpg",
+    "./src/assets/imageset/image3.jpg",
+    "./src/assets/imageset/image4.jpg",
+    "./src/assets/imageset/image5.jpg",
+    "./src/assets/imageset/image1.jpg",
+    "./src/assets/imageset/image2.jpg",
+    "./src/assets/imageset/image3.jpg",
+    "./src/assets/imageset/image4.jpg",
+    "./src/assets/imageset/image5.jpg"
+  ];
+
+  const columns = [[], [], [], []];
+  images.forEach((img, index) => {
+    columns[index % 4].push(img);
+  });
+
+  return (
+    <div className="container">
+      {columns.map((col, index) => (
+        <div className="column" key={index}>
+          {col.map((src, i) => (
+            <img key={i} src={src} alt="" />
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function Astagfirullah() {
   return (
     <button className="button-counter">
@@ -222,7 +259,8 @@ function App() {
       <WelcomeBanner />
       <MenuBar />
       <AboutIslam />
-      <MyTable />
+      <ImageGrid />
+
     </>
   );
 }

@@ -1,9 +1,12 @@
+* {
+    font-family: "Nunito";
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #F5F7FA;
     overflow-x: hidden;
-    font-family: "Nunito";
 }
 
 @font-face {
